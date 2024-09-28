@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "echo \"Error: no test specified && exit 1\"",
+    "build": "biome check ./src && tsc --build",
+    "format": "biome check --write --unsafe .",
+    "lint": "biome check .",
+    "dev": "tsx watch ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "navyachandra",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.8.0",
+    "winston": "^3.13.1",
+    "zod": "^3.23.8"
+  }
+}
