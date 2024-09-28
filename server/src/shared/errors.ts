@@ -6,4 +6,11 @@ export const ERRORS = {
       error_description: 'Something went wrong',
     },
   },
+  WEATHER_DATA_NOT_FOUND: {
+    statusCode: 500,
+    message: {
+      error: 'Weather data not found',
+      error_description: 'Error fetching weather data',
+    },
+  },
 };
