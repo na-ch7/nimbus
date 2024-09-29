@@ -8,7 +8,7 @@ A basic weather app that provides real-time weather information to users.
 - Express
 - Typescript
 - openweathermap API
-- 
+
 ## Setup
 
 Clone the repository:
