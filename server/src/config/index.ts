@@ -5,7 +5,6 @@ dotenv.config();
 
 const envSchema = z.object({
   PORT: z.string(),
-  MONGODB_URI: z.string(),
   NODE_ENV: z.string(),
   API_KEY: z.string(),
 });
@@ -15,7 +14,6 @@ export type EnvSchemaType = z.infer<typeof envSchema>;
 
 export default {
   PORT: env.PORT,
-  MONGODB_URI: env.MONGODB_URI,
   NODE_ENV: env.NODE_ENV,
   API_KEY: env.API_KEY,
   logs: {
