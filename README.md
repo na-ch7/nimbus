@@ -3,6 +3,8 @@
 A basic weather app that provides real-time weather information to users.
 > Made for MLSA club submission for TECHNICAL - BACKEND domain
 
+<img src="postman.png">
+
 ## Tech Stack
 - Node.js
 - Express
